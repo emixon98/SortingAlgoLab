@@ -3,6 +3,8 @@ Part 2 of the Sorting Lab
 
 ## Task 1: Average Case Time Complexity Insertion sort
 
+Insert finished latex formula and diagram here in github readme page
+
 ## Task 2: Operation Verification of Inserttion Sort
 
 ## Task 3
