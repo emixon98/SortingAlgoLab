@@ -6,8 +6,7 @@ Part 2 of the Sorting Lab
 Insert finished latex formula and diagram here in github readme page
 
 ## Task 2: Operation Verification of Inserttion Sort
-
-? Make a 5 element array, change index from 1 t some other value, verify 20 operations occur, so write code that tracks operations Maybe a decrementing insertion sort starting at index n -1 as the key
+Explain more later, code is on main
 ## Task 3
 Given Code:
 ```
