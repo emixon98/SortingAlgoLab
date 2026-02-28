@@ -2,6 +2,7 @@
 Part 2 of the Sorting Lab 
 
 ## Task 1: Average Case Time Complexity Insertion sort
+![ArrayLogicAvgCase](https://github.com/user-attachments/assets/ff14bf35-59fc-4e73-9ef3-b438904ebcb2)
 
 Insert finished latex formula and diagram here in github readme page
 
