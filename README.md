@@ -5,8 +5,8 @@ Part 2 of the Sorting Lab
 The red value is the value the key is being compared to. Any value to the left of the key, is the already sorted portion of the array.
 ![ArrayLogicAvgCase](https://github.com/user-attachments/assets/ff14bf35-59fc-4e73-9ef3-b438904ebcb2)
 
-Proof of number of shifts: 
-$$\t\t\sum_{i=1}^{n-1} \frac{i}{2}
+Proof of number of shifts: \t\t
+$$sum_{i=1}^{n-1} \frac{i}{2}
 = \frac{1}{2} \sum_{i=1}^{n-1} i
 = \frac{1}{2} \cdot \frac{(n-1)n}{2}
 = \frac{n(n-1)}{4}
