@@ -7,6 +7,7 @@ Insert finished latex formula and diagram here in github readme page
 
 ## Task 2: Operation Verification of Inserttion Sort
 
+? Make a 5 element array, change index from 1 t some other value, verify 20 operations occur, so write code that tracks operations Maybe a decrementing insertion sort starting at index n -1 as the key
 ## Task 3
 Given Code:
 ```
