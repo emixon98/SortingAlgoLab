@@ -7,7 +7,7 @@ The red value is the value the key is being compared to. Any value to the left o
 
 Proof of number of shifts using formula for sum of first n integers:
 
-$$\qquad \sum_{i=1}^{n-1} \frac{i}{2}
+$$\sum_{i=1}^{n-1} \frac{i}{2}
 = \frac{1}{2} \sum_{i=1}^{n-1} i
 = \frac{1}{2} \cdot \frac{(n-1)n}{2}
 = \frac{n(n-1)}{4}
