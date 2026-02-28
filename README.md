@@ -15,11 +15,34 @@ $$\sum_{i=1}^{n-1} \frac{i}{2}
 
 $$O(n^2)$$
 
-Insert finished latex formula and diagram here in github readme page
+## Task 2: Operation Verification of Insertion Sort
 
-## Task 2: Operation Verification of Inserttion Sort
-Explain more later, code is on main
+Basic insertion sort code with comparison and shift incrementers
+
+```cpp
+void insertionSort(int arr[], int n, int index, int &totalComparisons, int&totalShifts) {
+    for (int i = index; i < n; i++){
+        int checkVal = arr[i];
+        int j = i - 1;
+
+        while (j>=0){
+            totalComparisons++;
+            cout << "Comparison in progress...\n";
+            if(arr[j] > checkVal){
+                totalShifts++;
+                arr[j+1] = arr[j];
+                j--;
+                cout << "Sucessful shift performed\n";
+            } else break;
+        }
+
+        arr[j+1] = checkVal;
+    }
+}
+```
+
 ## Task 3
+
 Given Code:
 ```
     function containsX(string) {
