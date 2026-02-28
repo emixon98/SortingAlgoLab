@@ -22,6 +22,20 @@ void insertionSort(int arr[], int n, int index, int &totalComparisons, int&total
     }
 }
 
+bool containsX(const string& str){
+    int comparisons = 0;
+    for (char c : str){
+        comparisons++;
+        if(c == 'X'){
+            cout << "X has been found after " << comparisons << " comparisons.\n";
+            return true;
+        }
+    }
+    return false;
+}
+
+
+
 int main() {
     int arr[] = {5, 4, 3, 2, 1};
     int n = 5;
@@ -32,13 +46,20 @@ int main() {
     insertionSort(arr, n, index, totalComparisons, totalShifts);
 
     cout << "The total comparisons performed were " << totalComparisons << ", the total shifts performed were " 
-        << totalShifts << ". Totalling " << totalComparisons + totalShifts << " operations.";
+        << totalShifts << ".\n" << "Totalling " << totalComparisons + totalShifts << " operations.\n";
 
     //Use below to prove that we would still need 2 more operations if starting at index 2
     cout << "The state of the array is ";
     for(int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
+    cout << "\n";
 
+    string bcString = "Xylophone";
+    string avgString = "MiXer";
+//given function best and avg case modification, same function for both, efficiency
+// is just marking a flag saying that we have found "X"
+    containsX(bcString);
+    containsX(avgString);
     return 0;
 }
