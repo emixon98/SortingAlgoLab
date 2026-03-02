@@ -6,7 +6,7 @@ The red value is the value the key is being compared to. Any value to the left o
 ![ArrayLogicAvgCase](https://github.com/user-attachments/assets/ff14bf35-59fc-4e73-9ef3-b438904ebcb2)
 
 Proof of number of shifts using formula for sum of first n integers:
-There are "i" elemeents in the sorted portion of the array, on average we are expected to move through about half of them.
+There are "i" elements in the sorted portion of the array, on average we are expected to move through about half of them.
 The (n-1) is total elements in the array, and since we start at index 1, we subtract 1 from the total, as the 0th is considered sorted.
 
 $$\sum_{i=1}^{n-1} \frac{i}{2}
