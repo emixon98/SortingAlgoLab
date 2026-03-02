@@ -77,3 +77,5 @@ bool containsX(const string& str){
 }
 ```
 Considering my answer to part a, a best case scenario would be O(1), allowing us to make an exit from the for loop upon identification of the first letter if it is "X". In the modified code we do not mark a variable as true or false, but turn the function into a boolean, allowing us to return a conditional. In which case, if the letter "X" is found, the conditional is fulfilled and we can exit not only our loop but our function entirely, returning true or false to our main function body. Our average case would be if "X" was found in the middle of the string, or the strings length / 2, giving us an n/2 speed, still O(n), but a technically faster operation. 
+
+Youtube Link: https://youtu.be/b2BBT3YRWPs
