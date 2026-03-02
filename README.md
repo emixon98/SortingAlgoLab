@@ -6,6 +6,8 @@ The red value is the value the key is being compared to. Any value to the left o
 ![ArrayLogicAvgCase](https://github.com/user-attachments/assets/ff14bf35-59fc-4e73-9ef3-b438904ebcb2)
 
 Proof of number of shifts using formula for sum of first n integers:
+There are "i" elemeents in the sorted portion of the array, on average we are expected to move through about half of them.
+The (n-1) is total elements in the array, and since we start at index 1, we subtract 1 from the total, as the 0th is considered sorted.
 
 $$\sum_{i=1}^{n-1} \frac{i}{2}
 = \frac{1}{2} \sum_{i=1}^{n-1} i
@@ -17,7 +19,7 @@ $$O(n^2)$$
 
 ## Task 2: Operation Verification of Insertion Sort
 
-###Basic insertion sort code with comparison and shift incrementers
+Basic insertion sort code with comparison and shift incrementers
 
 ```cpp
 void insertionSort(int arr[], int n, int index, int &totalComparisons, int&totalShifts) {
